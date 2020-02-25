@@ -1,0 +1,82 @@
+[
+    {
+        "uuid": "__ev1",
+        "event": "Say",
+        "say": {
+            "name": "왈도",
+            "content": "거기, 안녕하신가! 힘세고 강한 아침, 만일 내게 물어보면, 나는 왈도."
+        },
+        "connection": "__ev2"
+    },
+    {
+        "uuid": "__ev2",
+        "event": "Say",
+        "say": {
+            "name": "나",
+            "content": "여어~"
+        },
+        "connection": "__ev3"
+    },
+    {
+        "uuid": "__ev3",
+        "event": "Say",
+        "say": {
+            "name": "나",
+            "content": "히사시부리"
+        },
+        "connection": "__ev4"
+    },
+    {
+        "uuid": "__ev4",
+        "event": "Say",
+        "say": {
+            "name": "왈도",
+            "content": "이봐 자네, 나에게 말을 건 이유가 무엇인가?",
+            "choices": [
+                {
+                    "title": "킁킁",
+                    "connection": "__ev5"
+                },
+                {
+                    "title": "신선함!",
+                    "connection": "__ev6"
+                },
+                {
+                    "title": "불건전하다!",
+                    "connection": "__ev7"
+                },
+                {
+                    "title": "대화 종료",
+                    "connection": ""
+                }
+            ]
+        }
+    },
+    {
+        "uuid": "__ev5",
+        "event": "Say",
+        "say": {
+            "name": "왈도",
+            "content": "킁킁거리지 마라"
+        },
+        "connection": "__ev4"
+    },
+    {
+        "uuid": "__ev6",
+        "event": "Say",
+        "say": {
+            "name": "왈도",
+            "content": "꺼져!"
+        },
+        "connection": "__ev4"
+    },
+    {
+        "uuid": "__ev7",
+        "event": "Say",
+        "say": {
+            "name": "왈도",
+            "content": "무슨 개소리야? 건전하다!"
+        },
+        "connection": "__ev4"
+    }
+]
