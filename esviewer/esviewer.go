@@ -32,7 +32,7 @@ type Event struct {
 }
 
 // ProcessEvent ...
-func (s Say) ProcessEvent() {
+func (s *Say) ProcessEvent() {
 	fmt.Printf("[%v]\n%v\n", s.Name, s.Content)
 
 	if len(s.Choices) > 0 {
